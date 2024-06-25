@@ -1,0 +1,9 @@
+@extends('frontend.layout.app')
+@section('main')
+    @include('frontend.homepage.herosection')
+    @include('frontend.homepage.scheme')
+    @include('frontend.homepage.blog')
+    @include('frontend.homepage.chairmanmessage')
+    @include('frontend.homepage.faq')
+    @include('frontend.homepage.remittance')
+@endsection

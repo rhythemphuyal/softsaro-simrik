@@ -1,0 +1,123 @@
+* {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.globalpadding {
+    padding: 10px 40px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#hoverBtn {
+    transition: background-color 0.3s ease;
+}
+
+#hoverBtn:hover {
+    background-color: #188d08;
+}
+
+#hoverBtn:hover svg path {
+    fill: #ffffff;
+}
+
+#hoverBtn:hover {
+    color: #ffffff;
+}
+
+
+#link {
+    transition: background-color 0.3s ease;
+}
+
+#link:hover {
+    background-color: #188d08;
+}
+
+#link:hover svg path {
+    fill: #ffffff;
+}
+
+#link:hover {
+    color: #ffffff;
+}
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-from-left {
+    animation: slideInFromLeft 1s forwards;
+    /* Adjust duration as needed */
+}
+
+
+
+
+@keyframes slideInFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-in-from-top {
+    animation: slideInFromTop 1s forwards;
+    /* Adjust duration as needed */
+}
+
+
+
+
+@keyframes slideInFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-in-from-bottom {
+    animation: slideInFromBottom 1s forwards;
+    /* Adjust duration as needed */
+}
+
+
